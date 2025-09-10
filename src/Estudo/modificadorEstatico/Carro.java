@@ -5,7 +5,7 @@ public class Carro {
 
     private String nome;
     private int velocidadeMax;
-    public static double velocidadeLimite = 250;
+    private static double velocidadeLimite = 250;
 
      /*
    ao mudar  esse atributo para static é como se esse atributo virasse parte da
@@ -16,8 +16,7 @@ public class Carro {
       */
 
 
-
-    public void imprime(){
+    public void imprime() {
         System.out.println("-------------------------");
 
         System.out.println("Nome: " + nome);
@@ -35,9 +34,15 @@ public class Carro {
         return nome;
     }
 
+    public static void setvelocidadeLimite(double velocidadeLimite) {
+        Carro.velocidadeLimite = velocidadeLimite;
 
+    }
+    public static double getVelocidadeLimite(){
+        return Carro.velocidadeLimite;
+    }
 
-      public void setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -47,10 +52,6 @@ public class Carro {
 
     public void setVelocidadeMax(int velocidadeMax) {
         this.velocidadeMax = velocidadeMax;
-    }
-
-    public double getVelocidadeLimite() {
-        return velocidadeLimite;
     }
 
     public void setVelocidadeLimite(double velocidadeLimite) {
