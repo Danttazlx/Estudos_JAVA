@@ -8,7 +8,7 @@ public class Anime {
 
     @Override
     public String toString() {
-        return "nome: " + nome + "\n idade: " + idade; //  usando tostring para printa ele vem da classa obj, entao ele
+        return "nome: " + nome + "\n idade: " + idade; //  usando tostring para printa, ele vem da classa obj, entao ele
 
     }
 
