@@ -54,7 +54,5 @@ public class Carro {
         this.velocidadeMax = velocidadeMax;
     }
 
-    public void setVelocidadeLimite(double velocidadeLimite) {
-        this.velocidadeLimite = velocidadeLimite;
-    }
+
 }
