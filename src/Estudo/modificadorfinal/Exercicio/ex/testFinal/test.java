@@ -1,9 +1,11 @@
-package Estudo.modificadorfinal;
+package Estudo.modificadorfinal.Exercicio.ex.testFinal;
+
+import Estudo.modificadorfinal.Exercicio.ex.dominio.Carro01;
 
 public class test {
     public static void main(String[] args) {
 
-        Carro carro = new Carro(); // correto por se tratar de de um modificador statico usar a class e nao a varialvel de referencia
+        Carro01 carro = new Carro01(); // correto por se tratar de de um modificador statico usar a class e nao a varialvel de referencia
 
         System.out.println(carro.velocidadeLimite);
 

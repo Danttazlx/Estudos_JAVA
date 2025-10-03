@@ -1,4 +1,4 @@
-package Estudo.modificadorfinal.exercicio02.domain;
+package Estudo.modificadorfinal.Exercicio.ex.dominio;
 
 public class Comprador {
     private String nome;
