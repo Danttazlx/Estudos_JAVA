@@ -1,4 +1,4 @@
-package Estudo.modificadorfinal.Exercicio.ex;
+package Estudo.modificadorfinal.Exercicio.ex.testFinal;
 
 import Estudo.modificadorfinal.Exercicio.ex.dominio.Carro;
 

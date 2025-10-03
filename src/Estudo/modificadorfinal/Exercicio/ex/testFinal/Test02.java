@@ -1,14 +1,13 @@
-package Estudo.modificadorfinal.exercicio02;
+package Estudo.modificadorfinal.Exercicio.ex.testFinal;
 
-import Estudo.modificadorfinal.exercicio02.domain.Carro;
-import Estudo.modificadorfinal.exercicio02.domain.Comprador;
+import Estudo.modificadorfinal.Exercicio.ex.dominio.Carro02;
 
 public class Test02 {
     public static void main(String[] args) {
 
 
-        Carro carro = new Carro();
-        Carro carro2 = new Carro();
+        Carro02 carro = new Carro02();
+        Carro02 carro2 = new Carro02();
 
 
         /*
