@@ -1,6 +1,6 @@
-package Estudo.modificadorfinal;
+package Estudo.modificadorfinal.Exercicio.ex.dominio;
 
-public class Carro {
+public class Carro01 {
 
 /*
 modificador final é uma contasnte e uma palavra reservada, e por se tratar de uma constante o JAVA tem uma convencao para ela

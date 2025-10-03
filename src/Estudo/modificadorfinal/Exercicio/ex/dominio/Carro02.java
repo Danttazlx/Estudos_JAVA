@@ -1,6 +1,6 @@
-package Estudo.modificadorfinal.exercicio02.domain;
+package Estudo.modificadorfinal.Exercicio.ex.dominio;
 
-public class Carro {
+public class Carro02 {
 
     private  String nome;
     public static final double VELOCIDADE_LIMITE = 280;
