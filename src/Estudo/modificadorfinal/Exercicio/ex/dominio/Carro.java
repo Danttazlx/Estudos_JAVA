@@ -7,6 +7,12 @@ public class Carro {
     public final double VELOCIDADEMIN = 250 ;
 
 
+    public void imprime(){
+        System.out.println("final");
+    }
+
+
+
     @Override
     public String toString() {
         return "Carro{" +
